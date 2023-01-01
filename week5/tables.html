@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+  </head>
+  <body>
+    <h1>Table practice</h1>
+    <h2>Simple table</h2>
+    <table border="1" >
+      <tr>
+        <th>Album</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>Rubber Soul</td>
+        <td>1968</td>
+      </tr>
+      <tr>
+        <td>Revolver</td>
+        <td>1966</td>
+      </tr>
+      <tr>
+        <td>Sgt. Pepper's</td>
+        <td>1967</td>
+      </tr>
+    </table>
+    <h2>Colspan property</h2>
+    <table border="1">
+      <tr>
+        <th colspan="2">Fat</th>
+      </tr>
+      <tr>
+        <td>Saturated Fat (g)</td>
+        <td>Unsaturated Fat (g)</td>
+      </tr>
+    </table>
+    <h2>Rowspan property</h2>
+    <table border="1">
+      <tr>
+        <th rowspan="3">Serving Size</th>
+        <td>small (Boz.)</td>
+      </tr>
+      <tr>
+        <td>Medium</td>
+      </tr>
+      <tr>
+        <td>Large</td>
+      </tr>
+    </table>
+
+    <h2>Fruits</h2>
+    <table border="1">
+      <tr>
+        <td>apples</td>
+        <td rowspan="3">oranges</td>
+        <td>pears</td>
+      </tr>
+      <tr>
+        <td>bananas</td>
+        <td rowspan="2">pineapple</td>
+      </tr>
+      <tr>
+        <td>lychees</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>Information on three awesome dinosaurs</caption>
+      <tr>
+        <th rowspan="2">Name</td>
+        <th rowspan="2">Period</th>
+        <th rowspan="2">Discovery</th>
+        <th colspan="2">Size</th>
+      </tr>
+      <tr>
+        <th>Length</th>
+        <th>Mass</th>
+      </tr>
+      <tr>
+        <th>Stegosaurus</th>
+        <td>Late Jurassic</td>
+        <td>1877</td>
+        <td>9m</td>
+        <td>4.5t</td>
+      </tr>
+      <tr>
+        <th>Apatosaurus</th>
+        <td>Jurassic Period</td>
+        <td>1877</td>
+        <td>23m</td>
+        <td>35t</td>
+      </tr>
+      <tr>
+        <th>Tyrannosaurus</th>
+        <td>Late Cretaceous</td>
+        <td>1905</td>
+        <td>12.3m</td>
+        <td>6.8t</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <td colspan="4">3 dinosaurs</td>
+      </tr>
+    </table>
+  </body>
+</html>

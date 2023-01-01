@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  font-size: 100%;
+}
+
+body{
+  background-color: #DDD;
+  font-family: Arial, sans-serif;
+  margin: 20px 10%;
+  line-height: 1.5em;
+}
+
+#box-1, #box-2{
+  border-style: solid;
+  padding: 1em;
+  margin-bottom: 2rem;
+}
+
+#box-1{
+  color: #FFF;
+  background-color: #333;
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#box-2{
+  border-width: medium;
+  border-style: dotted;
+  border-color: gray;
+  border-radius: 35px;
+}
+
+#circle{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px #666 ;
+}
+
+h1{
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h2{
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+  text-decoration: underline;
+  color: grey ;
+}

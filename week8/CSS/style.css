@@ -1,0 +1,19 @@
+h1{
+  color: red;
+}
+
+main h1{
+  color: blue;
+}
+
+p{
+  color: green;
+}
+
+#know-more{
+  color: yellow;
+}
+
+p.special{
+  color: brown;
+}

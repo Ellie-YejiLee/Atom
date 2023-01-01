@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  display: block;
+  border: 0;
+  width: 11em;
+  height: 8em;
+  margin: 1em auto auto auto;
+}
+
+.banner{
+  background: #17A2B8;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.banner h1{
+  font-size: 80px;
+  font-weight: lighter;
+  padding-top: 0.5em;
+  margin-bottom: 0px;
+}
+
+.banner p{
+  padding-top: 1em;
+  padding-bottom: 5.5em;
+  font-weight: lighter;
+}
+
+.cards{
+  width: 57%;
+  height: auto;
+  padding: 1em 12em 1em 12em;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #C0C0C0;
+  margin: 0.3em;
+}
+
+.card h2{
+  margin: 10px 8px 0.5em;
+  padding: 5px 8px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.card p{
+  margin: 10px 8px 1.5em;
+  padding: 5px 8px;
+  font-size: 13px;
+  line-height: 160%;
+  text-align: left;
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 5em;
+  background-color: #A0A0A0;
+  text-align: center;
+}
+
+footer p{
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 13px;
+}

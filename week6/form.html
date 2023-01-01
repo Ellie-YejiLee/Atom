@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>forms</title>
+  </head>
+  <body>
+    <form action="thanks.html" method="get">
+      <p>username: <input type="text" name="username" maxlength="30" placeholder="Your username"></p>
+      <p>password: <input type="password" name="pass" max="30"></p>
+      <p>search: <input type="search" name="search-field"></p>
+      <p>email: <input type="email" name="email-field"></p>
+      <p>telephone: <input type="tel" name="tel-field" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="***-****-****"></p>
+      <p>URL: <input type="url" name="web-field"></p>
+      <p>What is your age?</p>
+      <ol>
+        <li><input type="radio" name="age-range" value="less-than-21"> less than 21</li>
+        <li><input type="radio" name="age-range" value="less-than-30"> less than 30</li>
+        <li><input type="radio" name="age-range" value="more-than-30"> more than or equal to 30</li>
+      </ol>
+      <p>What music do you like?</p>
+      <ul>
+        <li><input type="checkbox" name="music-genre" value="rock"> Rock</li>
+        <li><input type="checkbox" name="music-genre" value="pop"> Pop</li>
+        <li><input type="checkbox" name="music-genre" value="hip-hop"> Hip-hop</li>
+      </ul>
+      <p>What is your favirut music band?</p>
+      <select name="music-band" size="5" multiple>
+        <option>Band 1</option>
+        <option value="the-best">Band 2</option>
+        <option>Band 3</option>
+        <option>Band 4</option>
+        <option>Band 5</option>
+        <option>Band 6</option>
+      </select>
+      <p>
+        <input type="file" name="picture">
+      </p>
+      <p>
+        <input type="hidden" name="user-id" value="383724">
+      </p>
+      <!-- <p>Your story: <textarea name="story" rows="6" cols="25" maxlength="500" placeholder="You can do it!"></textarea></p> -->
+      <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </p>
+    </form>
+  </body>
+</html>

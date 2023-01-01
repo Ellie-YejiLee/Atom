@@ -1,0 +1,52 @@
+html{
+  font-size:100%;
+}
+body{
+  font-family: Georgia, serif;
+  line-height: 1.75em;
+  background-color: rgb(237, 225, 250);
+}
+h1, h2{
+  color: olive;
+}
+h1{
+  font-family: 'Marko One', serif;
+  font-size: 1.5em;
+}
+h2{
+  font-size: 1em;
+  text-transform: uppercase;
+}
+dt{
+  display: list-item;
+  font-weight: bold;
+  color: sienna;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+dt strong{
+  font-style: italic;
+  color: tomato;
+}
+strong{
+  color: red;
+}
+#info p{
+  font-style: italic;
+  color: gray;
+}
+.label{
+  font-weight: bold;
+  font-style: normal;
+  font-variant: small-caps;
+}
+.price{
+  font-style: italic;
+}
+p.warning, sup{
+  color: red;
+  font-size: small;
+}
+#info, h2, h2+p{
+  text-align: center;
+}

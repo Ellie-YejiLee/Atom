@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>exercise2</title>
+  </head>
+  <body>
+    <form action="thanks.html" method="get">
+      <p><label for="degree-control">Degree</label>
+        <select name="degree" id="degree-control" size="1">
+        <option value="none">None</option>
+        <option value="bachelor">Bachelor</option>
+        <option value="master">Master</option>
+        <option value="doctorate">Doctorate</option>
+      </select>
+    </p>
+    <p><label>First Name <input type="text" name="first-name" maxlength="20"></label</p>
+    <p><label>Last Name <input type="text" name="last-name" maxlength="20"></label></p>
+    <p><label>Student ID *
+      <input type="text" name="student-ID" pattern="[0-9]{7}" required></label></p>
+    
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+      </fieldset>
+
+    <p><label>E-mail* <input type="email" name="email" placeholder="email@email.com"></label></p>
+    <p><label><textarea name="story" rows="8" cols="80" maxlength="500" placeholder="Leave your comments there..."></textarea></label></p>
+    <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  font-family: "Square Peg", cursive;
+  color: rgba(212, 57, 191, 0.5);
+}
+
+p{
+  color: yellow;
+  font-size:1.2em;
+}
+
+p{
+  color:green;
+}
+
+p#second{
+  color: red;
+}
+
+
+p.special{
+  color: blue;
+}
